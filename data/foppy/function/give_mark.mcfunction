@@ -1,0 +1,1 @@
+give @s minecraft:sculk_shrieker[max_stack_size=1,consumable={consume_seconds:0,has_consume_particles:false,animation:'none',on_consume_effects:[{type:apply_effects,effects:[{id:luck,show_icon:false,show_particles:false,duration:1000,amplifier:13}]}]},custom_name='{"text":"Warden\'s curse","color":"dark_green","italic":false}']

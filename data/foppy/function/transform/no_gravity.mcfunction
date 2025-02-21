@@ -1,0 +1,1 @@
+execute as @e[tag=warden_transform_mount] run attribute @s gravity base set 0

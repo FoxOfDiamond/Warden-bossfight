@@ -1,0 +1,1 @@
+execute as @a[nbt={active_effects:[{id:'minecraft:luck',amplifier:13b}]}] run function foppy:mark/raycast_ini
