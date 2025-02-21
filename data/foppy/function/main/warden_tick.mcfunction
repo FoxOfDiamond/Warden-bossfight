@@ -1,0 +1,1 @@
+execute store result bossbar warden value run data get entity @a[tag=warden,limit=1] Health
