@@ -7,6 +7,7 @@ execute as @a[tag=warden] at @s run function foppy:passives/sculk_damage
 execute as @a[tag=warden] run function foppy:main/warden_tick_as
 
 scoreboard players reset @a f_death_count
+scoreboard players reset @a f_dealt_dmg
 
 function foppy:timer
 

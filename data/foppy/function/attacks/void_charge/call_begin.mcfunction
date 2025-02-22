@@ -1,0 +1,1 @@
+execute as @a[tag=warden] run function foppy:attacks/void_charge/begin
