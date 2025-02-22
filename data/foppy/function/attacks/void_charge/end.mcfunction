@@ -1,5 +1,5 @@
 function foppy:attacks/void_charge/clear
-execute at @s run summon creeper ~ ~ ~ {Fuse:0,ExplosionRadius:5}
+execute at @s run summon creeper ~ ~ ~ {Fuse:0}
 effect give @s resistance 1 255 true
 execute at @s run function foppy:passives/sculk_spread_big
 

@@ -3,8 +3,7 @@
     "#dirt",
     "dirt_path",
     "#smelts_to_glass",
-    "#mineable/pickaxe",
-    "#minecraft:dirt",
+      "#minecraft:dirt",
     "soul_soil"
   ]
 }
