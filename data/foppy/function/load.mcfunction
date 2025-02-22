@@ -1,4 +1,5 @@
 scoreboard objectives add f_death_count deathCount
+scoreboard objectives add f_damage_taken minecraft.custom:damage_taken
 scoreboard objectives add f_cutscene_timer dummy
 scoreboard objectives add f_general_timer dummy
 scoreboard objectives add f_raycast_timer dummy

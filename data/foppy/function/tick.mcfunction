@@ -3,6 +3,7 @@ function foppy:transform/death_detect
 
 execute as @a[tag=warden_transform] at @s run function foppy:transform/transform_tick
 execute as @a[tag=warden] at @s run function foppy:main/warden_tick
+execute as @a[tag=warden] at @s run function foppy:passives/sculk_damage
 
 scoreboard players reset @a f_death_count
 

@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #foppy:infectable run setblock ~ ~ ~ sculk

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#dirt",
+    "dirt_path",
+    "#smelts_to_glass",
+    "#mineable/pickaxe",
+    "#minecraft:dirt",
+    "minecraft:cyan_stained_glass",
+    "minecraft:blue_stained_glass",
+    "minecraft:light_blue_stained_glass",
+    "white_stained_glass"
+  ]
+}
