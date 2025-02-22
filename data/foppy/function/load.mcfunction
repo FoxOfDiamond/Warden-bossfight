@@ -5,6 +5,7 @@ scoreboard objectives add f_raycast_timer dummy
 scoreboard objectives add f_marker_trigger trigger
 
 gamerule doImmediateRespawn true
+gamerule mobGriefing false
 #gamerule sendCommandFeedback false
 
 tag @a remove warden

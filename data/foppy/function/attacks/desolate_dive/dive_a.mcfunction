@@ -1,0 +1,1 @@
+execute as @a[tag=diving] run function foppy:attacks/desolate_dive/pause
