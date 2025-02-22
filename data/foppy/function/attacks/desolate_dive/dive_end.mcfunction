@@ -9,3 +9,4 @@ execute at @s run summon creeper ~ ~ ~ {Fuse:0}
 attribute @s fall_damage_multiplier base reset 
 tag @s remove diving
 tag @s remove diveTrail
+tag @s remove dive_down

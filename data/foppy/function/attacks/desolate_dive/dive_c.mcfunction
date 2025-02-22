@@ -1,1 +1,0 @@
-execute as @a[tag=diving] run function foppy:attacks/desolate_dive/dive_end

@@ -21,3 +21,4 @@ function foppy:main/detect_skills
 execute if score 5t f_general_timer matches 0 as @e[tag=warden_spread,tag=warden_spread_marker] at @s run function foppy:attacks/detonate/spread
 
 execute if score 5t f_general_timer matches 0 as @e[tag=warden_spread,tag=warden_spread_dive] at @s run function foppy:attacks/desolate_dive/dive_spread
+execute as @a[tag=dive_down] at @s unless block ~ ~-1 ~ air run function foppy:attacks/desolate_dive/dive_end

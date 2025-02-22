@@ -1,4 +1,3 @@
-say "Begin transform"
 tag @s remove warden_mark
 tag @s add warden_transform
 execute at @s run summon armor_stand ~ ~ ~ {Tags:["warden_transform_mount"],Invisible:true,Invulnerable:true,Small:true}
