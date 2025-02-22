@@ -1,0 +1,1 @@
+execute at @s[tag = diveTrail] run particle sonic_boom

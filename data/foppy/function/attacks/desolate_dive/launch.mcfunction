@@ -1,1 +1,1 @@
-attribute @s gravity base set -0.25
+attribute @s gravity base set -0.4
