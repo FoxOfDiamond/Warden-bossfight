@@ -1,0 +1,1 @@
+execute as @e[tag=warden_transform] run function foppy:transform/transform_attributes

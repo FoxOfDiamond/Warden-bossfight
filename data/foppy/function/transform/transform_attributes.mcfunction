@@ -1,0 +1,10 @@
+attribute @s max_health modifier add warden_health 80 add_value
+attribute @s knockback_resistance modifier add warden_kbr 0.7 add_value
+attribute @s movement_speed modifier add warden_kbr 0.05 add_value
+attribute @s scale modifier add warden_scale 0.1 add_value
+attribute @s step_height modifier add warden_step 0.5 add_value
+attribute @s entity_interaction_range modifier add warden_reach 0.5 add_value
+attribute @s safe_fall_distance modifier add warden_fall 500 add_value
+attribute @s movement_efficiency modifier add warden_cob 4 add_value
+attribute @s explosion_knockback_resistance modifier add warden_stoic 1 add_value
+attribute @s water_movement_efficiency modifier add warden_wade 0.2 add_value
