@@ -17,3 +17,7 @@ execute as @a[scores={f_marker_trigger=13}] run function foppy:give_mark
 execute as @a[scores={f_marker_trigger=13}] run scoreboard players reset @s f_marker_trigger
 
 function foppy:main/detect_skills
+
+execute if score 5t f_general_timer matches 0 as @e[tag=warden_spread,tag=warden_spread_marker] at @s run function foppy:attacks/detonate/spread
+
+execute if score 5t f_general_timer matches 0 as @e[tag=warden_spread,tag=warden_spread_dive] at @s run function foppy:attacks/desolate_dive/dive_spread

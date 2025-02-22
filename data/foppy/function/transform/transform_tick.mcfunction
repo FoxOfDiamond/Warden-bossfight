@@ -4,6 +4,8 @@ execute if score 5t f_general_timer matches 0 run function foppy:transform/rando
 
 execute if score 20t f_general_timer matches 0 run spreadplayers ~ ~ 10 20 false @e[tag=warden_transform_lightning]
 execute if score 20t f_general_timer matches 0 run execute at @e[tag=warden_transform_lightning] run summon lightning_bolt
+execute if score 20t f_general_timer matches 0 run execute at @e[tag=warden_transform_lightning] positioned ~ ~-1 ~ run function foppy:passives/sculk_spread_tiny
+execute if score 20t f_general_timer matches 0 run execute at @e[tag=warden_transform_lightning] positioned ~ ~-1 ~ run fill ~ ~ ~ ~ ~ ~ soul_soil replace sculk
 execute if score 20t f_general_timer matches 0 run execute at @e[tag=warden_transform_lightning] run playsound entity.lightning_bolt.thunder block @a ~ ~ ~ 2
 
 particle sonic_boom ~ ~ ~ 20 20 20 0 5

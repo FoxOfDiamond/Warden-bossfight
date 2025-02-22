@@ -20,6 +20,7 @@ attribute @s entity_interaction_range modifier add warden_reach 0.5 add_value
 attribute @s safe_fall_distance modifier add warden_fall 500 add_value
 attribute @s movement_efficiency modifier add warden_cob 4 add_value
 attribute @s explosion_knockback_resistance modifier add warden_stoic 1 add_value
+attribute @s water_movement_efficiency modifier add warden_wade 0.2 add_value
 
 effect give @s regeneration 5 5 true
 
