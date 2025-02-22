@@ -19,4 +19,3 @@ bossbar set warden max 100
 bossbar set warden value 1
 bossbar set warden players @a
 bossbar set warden style notched_20
-clear
