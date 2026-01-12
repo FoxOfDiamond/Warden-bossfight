@@ -19,8 +19,7 @@ tag @a remove diveTrail
 tag @a remove diving
 tag @a remove charging
 kill @a[tag=warden_transform_mount]
-#op TheFoxThatHates
 
 bossbar remove warden
 
-tellraw @a [{"text": "RAWRRRR :3\n"},{"text": "[Ears]","bold": true,"color": "#ffaa00","clickEvent": {"action": "run_command","value": "/item replace entity @s armor.head with minecraft:angler_pottery_sherd"}},{"text": "[Tail]","bold": true,"color": "#e7ff2e","clickEvent": {"action": "run_command","value": "/tellraw @s \"New update broke this scheiße\""}}]
+tellraw @a [{"text": "Warden powers loaded"}]
