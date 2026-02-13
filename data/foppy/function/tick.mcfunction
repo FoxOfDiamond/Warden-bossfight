@@ -11,10 +11,8 @@ scoreboard players reset @a f_dealt_dmg
 
 function foppy:timer
 
-#trigger
-scoreboard players enable @a f_marker_trigger
-execute as @a[scores={f_marker_trigger=13}] run function foppy:give_mark
-execute as @a[scores={f_marker_trigger=13}] run scoreboard players reset @s f_marker_trigger
+execute as @e[tag=warden_mark] run particle minecraft:sculk_charge_pop ~ ~ ~ 0.5 1 0.5 0 10
+execute as @e[tag=warden_mark] run particle minecraft:sculk_soul ~ ~ ~ 0.5 1 0.5 0 10
 
 function foppy:main/detect_skills
 

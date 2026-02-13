@@ -12,7 +12,7 @@ particle sonic_boom ~ ~ ~ 20 20 20 0 5
 effect give @s resistance 3 255 true
 ride @s mount @e[tag=warden_transform_mount,limit=1,sort=nearest]
 
-particle minecraft:sculk_soul{roll:0} ~ ~ ~ 0 0 0 1 10
+particle minecraft:sculk_soul ~ ~ ~ 0 0 0 1 10
 particle minecraft:sculk_charge{roll:0} ~ ~ ~ 0 0 0 0.5 10
 
 execute store result bossbar warden value run data get entity @s Health

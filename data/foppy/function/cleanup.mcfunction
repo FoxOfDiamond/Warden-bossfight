@@ -1,0 +1,1 @@
+execute as @a[tag=warden] run function foppy:remove_warden

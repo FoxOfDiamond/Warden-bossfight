@@ -1,4 +1,4 @@
-
+execute if score infect_blocks f_config matches 0 run return 0
 execute positioned ~-2 ~-2 ~-2 run function foppy:passives/sculk_infect
 execute positioned ~-2 ~-1 ~-2 run function foppy:passives/sculk_infect
 execute positioned ~-2 ~0 ~-2 run function foppy:passives/sculk_infect

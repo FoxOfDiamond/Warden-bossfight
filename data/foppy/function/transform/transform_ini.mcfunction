@@ -11,7 +11,12 @@ summon marker ~ ~ ~ {Tags:["warden_transform_lightning"]}
 
 schedule function foppy:transform/transform_attributes_global 2
 
-effect give @s regeneration 5 5 true
+effect give @s regeneration 5 255 true
+
+effect give @s fire_resistance infinite 255 true
+effect give @s night_vision infinite 255 true
+
+schedule function foppy:transform/heal_warden 120 append
 
 bossbar add warden "The warden"
 bossbar set warden color green

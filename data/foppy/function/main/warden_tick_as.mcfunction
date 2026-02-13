@@ -3,3 +3,12 @@ execute at @s[tag = chargeTrail] run particle minecraft:soul_fire_flame ~ ~ ~ 0.
 execute at @s[tag = diveTrail] run particle sonic_boom
 execute at @s[tag = charging] if entity @e[type=!item,tag=!warden,type=!item,type=!marker,type=!armor_stand,distance=..2] run function foppy:attacks/void_charge/end
 execute at @s[tag = charging] positioned ~ ~-1 ~ run function foppy:passives/sculk_infect
+execute as @s[nbt={foodLevel:8}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:7}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:6}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:5}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:4}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:3}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:2}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:1}] run effect give @s saturation 1 1
+execute as @s[nbt={foodLevel:0}] run effect give @s saturation 1 1

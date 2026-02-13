@@ -1,6 +1,11 @@
 #use stack side to signify cooldown
-#luck amplifier is 10+skill id
-give @s minecraft:echo_shard[lore=['{"text":"Sonic boom!","italic":false}'],minecraft:use_cooldown={seconds:5},minecraft:custom_name='{"text":"Sonic boom","color":"dark_green","italic":false}',minecraft:max_stack_size=5,minecraft:consumable={consume_seconds:0,animation:none,has_consume_particles:false,on_consume_effects:[{type:apply_effects,effects:[{id:luck,show_icon:false,show_particles:false,duration:1000,amplifier:101}]}],sound:{sound_id:"minecraft:entity.warden.sonic_charge"}}] 5
-give @s minecraft:quartz[lore=['{"text":"Leap into the air and dive down, causing a massive explosion","italic":false}'],minecraft:use_cooldown={seconds:10},minecraft:custom_name='{"text":"Descending dark","color":"light_purple","italic":false}',minecraft:max_stack_size=10,minecraft:consumable={consume_seconds:0,animation:none,has_consume_particles:false,on_consume_effects:[{type:apply_effects,effects:[{id:luck,show_icon:false,show_particles:false,duration:1000,amplifier:102}]}],sound:{sound_id:"minecraft:entity.ender_dragon.flap"}}] 10
-give @s minecraft:nether_star[lore=['{"text":"Gain a speed boost and ram anything nearby after a short windup","italic":false}'],minecraft:use_cooldown={seconds:15},minecraft:custom_name='{"text":"Void charge","color":"red","italic":false}',minecraft:max_stack_size=15,minecraft:consumable={consume_seconds:0,animation:none,has_consume_particles:false,on_consume_effects:[{type:apply_effects,effects:[{id:luck,show_icon:false,show_particles:false,duration:1000,amplifier:103}]}],sound:{sound_id:"minecraft:entity.warden.roar"}}] 15
-give @s minecraft:magma_cream[lore=['{"text":"Fires out a signal that damage other players and propegate throughout the sculk, leaving behind a ring of fire","italic":false}'],minecraft:use_cooldown={seconds:20},minecraft:custom_name='{"text":"Agitate","color":"green","italic":false}',minecraft:max_stack_size=20,minecraft:consumable={consume_seconds:0,animation:none,has_consume_particles:false,on_consume_effects:[{type:apply_effects,effects:[{id:luck,show_icon:false,show_particles:false,duration:1000,amplifier:104}]}],sound:{sound_id:"minecraft:block.sculk_shrieker.shriek"}}] 20
+#luck amplifier is 10 + skill id
+data modify storage warden_temp count set from storage warden_temp sonic_boom_cooldown
+function foppy:attacks/sonic_boom/give_item with storage warden_temp
+data modify storage warden_temp count set from storage warden_temp desolate_dive_cooldown
+function foppy:attacks/desolate_dive/give_item with storage warden_temp
+data modify storage warden_temp count set from storage warden_temp void_charge_cooldown
+function foppy:attacks/void_charge/give_item with storage warden_temp
+data modify storage warden_temp count set from storage warden_temp detonate_cooldown
+function foppy:attacks/detonate/give_item with storage warden_temp
+data modify storage warden_temp count set value 1
