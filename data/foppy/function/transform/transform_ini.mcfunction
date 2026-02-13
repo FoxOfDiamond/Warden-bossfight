@@ -20,7 +20,7 @@ schedule function foppy:transform/heal_warden 120 append
 
 bossbar add warden "The warden"
 bossbar set warden color green
-bossbar set warden max 100
+execute store result bossbar warden max run scoreboard players get warden_health f_config
 bossbar set warden value 1
 bossbar set warden players @a
 bossbar set warden style notched_20
