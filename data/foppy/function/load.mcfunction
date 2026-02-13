@@ -15,7 +15,7 @@ execute unless score warden_attack f_config matches 0..10000 run scoreboard play
 
 execute unless score sonic_boom f_cooldown matches 0..10000 run scoreboard players set sonic_boom f_cooldown 5
 execute unless score desolate_dive f_cooldown matches 0..10000 run scoreboard players set desolate_dive f_cooldown 10
-execute unless score wild_charge f_cooldown matches 0..10000 run scoreboard players set wild_charge f_cooldown 15
+execute unless score void_charge f_cooldown matches 0..10000 run scoreboard players set void_charge f_cooldown 15
 execute unless score detonate f_cooldown matches 0..10000 run scoreboard players set detonate f_cooldown 20
 
 # Check if version is 1.21.5+

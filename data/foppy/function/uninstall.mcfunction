@@ -28,6 +28,6 @@ data remove storage warden_temp attack
 data remove storage warden_temp health
 data remove storage warden_temp sonic_boom_cooldown
 data remove storage warden_temp desolate_dive_cooldown
-data remove storage warden_temp wild_charge_cooldown
+data remove storage warden_temp void_charge_cooldown
 data remove storage warden_temp detonate_cooldown
 datapack disable "file/Warden.zip"

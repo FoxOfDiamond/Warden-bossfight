@@ -1,1 +1,2 @@
 gamerule sendCommandFeedback
+return 1

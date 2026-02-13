@@ -25,7 +25,7 @@ tellraw @a [\
 {"text":"\n"},\
 {"text": "[Descending dark]","color": "#aa00ff","clickEvent": {"action": "suggest_command","value": "/scoreboard players set desolate_dive f_cooldown 10"},"bold": true},\
 {"text":"\n"},\
-{"text": "[Wild charge]","color": "#cc0101","clickEvent": {"action": "suggest_command","value": "/scoreboard players set wild_charge f_cooldown 15"},"bold": true},\
+{"text": "[Void charge]","color": "#cc0101","clickEvent": {"action": "suggest_command","value": "/scoreboard players set void_charge f_cooldown 15"},"bold": true},\
 {"text":"\n"},\
 {"text": "[Agitate]","color": "#09ff00","clickEvent": {"action": "suggest_command","value": "/scoreboard players set detonate f_cooldown 20"},"bold": true}\
 ]
