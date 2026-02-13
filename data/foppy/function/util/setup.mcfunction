@@ -6,6 +6,8 @@ tellraw @a [\
 {"text":"\n"},\
 {"text": "[Become warden]","color": "#059000","clickEvent": {"action": "suggest_command","value": "/tag @s add warden_mark"},"bold": true},\
 {"text":"\n"},\
+{"text": "[Uninstall]","color": "#ff5353","clickEvent": {"action": "run_command","value": "/function foppy:uninstall"},"bold": true},\
+{"text":"\n"},\
 {"text": "-GENERAL CONFIGURATIONS(0 = off, 1 = on)-\n","color": "#e7e7e7","bold": true},\
 {"text": "[Configure warden health]","color": "#e70000","clickEvent": {"action": "suggest_command","value": "/scoreboard players set warden_health f_config 500"},"bold": true},\
 {"text":"\n"},\

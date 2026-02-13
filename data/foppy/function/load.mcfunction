@@ -19,7 +19,7 @@ execute unless score wild_charge f_cooldown matches 0..10000 run scoreboard play
 execute unless score detonate f_cooldown matches 0..10000 run scoreboard players set detonate f_cooldown 20
 
 # Check if version is 1.21.5+
-execute store result score is_1215 f_config run function foppy:util/is_1215 {1:1}
+execute store result score is_1215 f_config run function foppy:util/is_1215 {0:0}
 execute if score is_1215 f_config matches 0 run data modify storage warden_temp backslash set value "'"
 execute if score is_1215 f_config matches 1 run data modify storage warden_temp backslash set value ""
 # For 1.21.11 support
